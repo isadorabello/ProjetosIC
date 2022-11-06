@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.EditarPacienteActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        tools:ignore="RtlHardcoded">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagePerfilP"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/perfil" />
+
+        <TextView
+            android:id="@+id/textAlterarFotoPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/alterarFoto"
+            android:textColor="@color/purple_900"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNomeP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_perfil"
+            android:background="@drawable/background_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editDataN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_data_nascimento"
+            android:background="@drawable/background_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/dataN"
+            android:inputType="date|numberDecimal" />
+
+        <EditText
+            android:id="@+id/editComorbidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_comorbidades"
+            android:background="@drawable/background_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/comorbidade"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editFicha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_hospital"
+            android:background="@drawable/background_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/ficha"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editAnotacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_info"
+            android:background="@drawable/background_edit_text"
+            android:padding="14dp"
+            android:ems="10"
+            android:hint="@string/anotacoes"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editDataE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edit_text"
+            android:drawableLeft="@drawable/ic_data_nascimento"
+            android:ems="10"
+            android:hint="@string/dataA"
+            android:inputType="date|numberDecimal"
+            android:padding="14dp" />
+
+        <Button
+            android:id="@+id/buttonSalvarPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:padding="12dp"
+            android:text="@string/salvar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

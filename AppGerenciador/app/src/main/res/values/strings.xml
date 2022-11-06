@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppGerenciador</string>
+    <string name="cadastro">CADASTRE-SE AQUI!</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="entar">ENTRAR</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="sair">Sair</string>
+    <string name="bemvindo">Olá, seja bem vindo(a)!</string>
+    <string name="editar">Editar Perfil</string>
+    <string name="inicio">Início</string>
+    <string name="alertas">Alertas</string>
+    <string name="perfil">Perfil</string>
+    <string name="alterarFoto">Alterar Foto</string>
+    <string name="salvar">SALVAR</string>
+    <string name="solicitacao">Solicitações de Vínculos</string>
+    <string name="deletar">Excluir Paciente</string>
+    <string name="editarPaciente">Editar Paciente</string>
+    <string name="comorbidade">Comorbidades</string>
+    <string name="importante">Informações importantes do paciente</string>
+    <string name="dataN">Data de nascimento</string>
+    <string name="dataA">Data de adimissão</string>
+    <string name="ficha">Anotações da ficha médica</string>
+    <string name="anotacoes">Anotações importantes</string>
+    <string name="estado">Estado Atual</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
