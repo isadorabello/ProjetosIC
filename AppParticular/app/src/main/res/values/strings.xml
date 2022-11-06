@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">App Particular</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="cadastro">CADASTRE-SE AQUI!</string>
+    <string name="nome">Nome</string>
+    <string name="chave">Chave de cadastro do hospital/asilo</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="sair">Sair</string>
+    <string name="salvar">Salvar</string>
+    <string name="editar">Editar Perfil</string>
+    <string name="adicionar">Adicionar Produto</string>
+    <string name="perfil">Perfil</string>
+    <string name="alterarFoto">Alterar Foto</string>
+    <string name="descricao">Descrição</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="vinculado">Você é vinculado(a) a um hospital/asilo?</string>
+    <string name="ola">Olá, seja bem vindo(a)!</string>
+    <string name="inicio">Início</string>
+    <string name="alertas">Alertas</string>
+    <string name="data">Data de nascimento (Ex: 18/09/1996)</string>
+    <string name="dataN">Data de nascimento</string>
+    <string name="comorbidade">Comorbidades</string>
+    <string name="importante">Informações importantes</string>
+    <string name="galeria">Abrir Galeria</string>
+    <string name="vinculo">Vínculo Hospitalar</string>
+    <string name="estado">Estado Atual</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

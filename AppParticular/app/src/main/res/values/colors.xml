@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="turquesa_claro">#07F0FA</color>
+    <color name="turquesa">#FF03989E</color>
+    <color name="turquesa_escuro">#FF036367</color>
+    <color name="turquesa_mais_escuro">#023537</color>
+    <color name="salmao_claro">#ED6A6A</color>
+    <color name="salmao">#B52727</color>
+    <color name="cor_fundo">#F8F6EB</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

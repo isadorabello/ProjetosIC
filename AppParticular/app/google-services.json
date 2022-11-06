@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1070422497426",
+    "project_id": "fiobrancoic",
+    "storage_bucket": "fiobrancoic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070422497426:android:73e413ba240ef3c7422e4b",
+        "android_client_info": {
+          "package_name": "com.example.appparticular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070422497426-f7bjstp3jdvcq487npvhpne6culjp92o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appparticular",
+            "certificate_hash": "4b997a756c8d698f2d6a3750175d31fa521ab471"
+          }
+        },
+        {
+          "client_id": "1070422497426-m7a9ctbidthpi7ra11v4tp19ero6t0s5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgo4kf5tSH_F9rVugWr3gUYP9eCc3Agpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070422497426-m7a9ctbidthpi7ra11v4tp19ero6t0s5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
